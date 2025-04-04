@@ -1,3 +1,6 @@
+![BlackWhiteBlog Theme ScreenShot](https://raw.githubusercontent.com/karadall/BlackWhiteBlog/refs/heads/main/screenshot.png)
+
+
 === BlackWhite ===
 Contributors: KARADAL
 Tags: blog, minimal, responsive, two-columns, custom-logo, featured-images
