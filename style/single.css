@@ -1,0 +1,386 @@
+.single-post-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.breadcrumbs {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+    padding: 10px 15px;
+    position: relative;
+    display: block;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.breadcrumbs::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 7px;
+    background: linear-gradient(45deg, #000, #fff, #000, #fff);
+    background-size: 200% 200%;
+    animation: borderSpin 4s linear infinite;
+    z-index: -1;
+}
+@keyframes borderSpin {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 200% 200%; }
+}
+.breadcrumbs a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.breadcrumbs a:hover {
+    color: #555;
+}
+.breadcrumbs span {
+    color: #999;
+}
+.single-post-image {
+    margin: 20px 0;
+    text-align: center;
+}
+.single-post-image img {
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
+.single-post-categories {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.single-post-categories a {
+    color: #333;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin: 0 5px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+.single-post-categories a:hover {
+    color: #555;
+}
+.single-post-tags {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.single-post-tags .tags-label {
+    color: #666;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.single-post-tags a {
+    color: #333;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin: 0 5px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+.single-post-tags a:hover {
+    color: #555;
+}
+.single-post-content {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.single-post-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 20px;
+    line-height: 1.3;
+    text-align: center;
+}
+.single-post-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+}
+.single-author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.single-author-info img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #f0f0f0;
+}
+.single-author-name a {
+    font-weight: 500;
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.single-author-name a:hover {
+    color: #333;
+}
+.single-post-date {
+    color: #999;
+    font-size: 16px;
+}
+.single-share-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.single-share-buttons .share-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+}
+.single-share-buttons a,
+.single-share-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.single-share-buttons a:hover,
+.single-share-buttons button:hover {
+    background: #333;
+    color: #fff;
+}
+.single-share-buttons i {
+    font-size: 16px;
+}
+.single-divider {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 25px 0;
+}
+.single-content {
+    line-height: 1.7;
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+.single-content p {
+    margin: 0 0 20px;
+}
+.single-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+    font-size: 14px;
+}
+.single-notification.show {
+    opacity: 1;
+    visibility: visible;
+}
+@media (max-width: 768px) {
+    .single-post-container {
+        padding: 0 15px;
+        margin: 20px auto;
+    }
+    .breadcrumbs {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    .single-post-image img {
+        border-radius: 5px;
+        max-height: 400px;
+    }
+    .single-post-categories {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .single-post-categories a {
+        padding: 5px 8px;
+        margin: 0 4px;
+    }
+    .single-post-tags {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .single-post-tags a {
+        padding: 5px 8px;
+        margin: 0 4px;
+    }
+    .single-post-content {
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .single-post-title {
+        font-size: 24px;
+    }
+    .single-post-meta {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .single-share-buttons {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .single-share-buttons a,
+    .single-share-buttons button {
+        width: 32px;
+        height: 32px;
+    }
+    .single-content {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .single-post-image img {
+        max-height: 300px;
+    }
+    .single-post-title {
+        font-size: 20px;
+    }
+    .single-post-meta {
+        font-size: 13px;
+    }
+    .single-content {
+        font-size: 15px;
+    }
+}
+.single-password-form {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.password-form-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.password-icon {
+    font-size: 32px;
+    color: #333;
+}
+.single-password-form h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+.single-password-form p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+.single-password-form input[type="password"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.single-password-form input[type="password"]:focus {
+    border-color: #333;
+}
+.single-password-form .password-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.single-password-form .password-submit:hover {
+    background: #555;
+}
+.single-password-form .password-submit i {
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .single-password-form {
+        padding: 20px;
+        margin: 15px auto;
+    }
+    .single-password-form h3 {
+        font-size: 20px;
+    }
+    .single-password-form p {
+        font-size: 14px;
+    }
+    .single-password-form input[type="password"] {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    .single-password-form .password-submit {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    .single-password-form {
+        padding: 15px;
+    }
+    .single-password-form h3 {
+        font-size: 18px;
+    }
+    .single-password-form input[type="password"] {
+        max-width: 250px;
+    }
+}

@@ -1,0 +1,74 @@
+/*
+ Theme Name:   BlackWhiteBlog
+ Tags: blog, two-columns, custom-logo, featured-images
+ Theme URI:    https://github.com/karadall/BlackWhite/
+ Author:       KARADAL
+ Author URI:   https://github.com/karadall
+ Description:  A simple and plain yet modern WordPress blog theme.
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  blackwhiteblog
+ Tested up to: 6.7
+ Requires PHP: 7.4
+ License: GNU General Public License v2.0
+ License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+
+Copyright (C) 2025 KARADAL
+This theme is distributed under the GNU General Public License v2.0.
+*/
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.wp-caption {
+    max-width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.wp-caption-text {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0.5em 0;
+}
+
+.sticky {
+    border: 2px solid #333;
+    background-color: #f9f9f9;
+}
+
+.gallery-caption {
+    font-size: 0.85em;
+    color: #777;
+}
+
+.bypostauthor {
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 1em;
+}

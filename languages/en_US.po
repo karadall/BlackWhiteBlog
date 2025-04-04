@@ -1,0 +1,476 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blackwhite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-03 19:41+0000\n"
+"PO-Revision-Date: 2025-04-04 07:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: blackwhiteblog"
+
+#: comments.php:57
+#, php-format
+msgid ""
+"%1$s olarak oturum açıldı. <a href=\"%2$s\">Profilinizi düzenleyin</a> veya "
+"<a href=\"%3$s\">oturumu kapatın</a>."
+msgstr ""
+"Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a> or <a "
+"href=\"%3$s\">log out</a>."
+
+#: functions.php:268
+#, php-format
+msgid "%s URL"
+msgstr "%s URL"
+
+#: functions.php:258
+#, php-format
+msgid "%s İkonunu Göster"
+msgstr "Show %s Icon."
+
+#: functions.php:16
+msgid "Ana Menü"
+msgstr "Main Menu"
+
+#: functions.php:123
+msgid "Ana Sayfa Ayarları"
+msgstr "Home Page Settings"
+
+#: archive.php:8 category.php:11 page.php:12 search.php:8 tag.php:8
+msgid "Anasayfa"
+msgstr "Home"
+
+#: index.php:14 search.php:19
+msgid "Ara"
+msgstr "Search"
+
+#: search.php:54
+msgid "Arama sonucu görseli"
+msgstr "Search result image"
+
+#: search.php:27
+msgid "Arama Sonuçları:"
+msgstr "Search Results:"
+
+#: index.php:13 search.php:18
+msgid "Arama yap"
+msgstr "Search"
+
+#: search.php:9
+msgid "Arama:"
+msgstr "Search:"
+
+#: search.php:35
+msgid "Aramanızla eşleşen bir sonuç bulunamadı."
+msgstr "No results were found matching your search."
+
+#: archive.php:45
+msgid "Arşiv gönderi görseli"
+msgstr "Archive post image"
+
+#: archive.php:9
+msgid "Arşiv:"
+msgstr "Archive:"
+
+#: archive.php:20
+msgid "ayına ait gönderiler."
+msgstr ": Posts for the month"
+
+#. Name of the theme
+msgid "Blackwhite"
+msgstr ""
+
+#. Description of the theme
+msgid "Blackwhite teması"
+msgstr ""
+
+#: functions.php:328
+msgid "Breadcrumbs Göster"
+msgstr "Show Breadcrumbs"
+
+#: archive.php:65
+msgid "Bu arşivde henüz gönderi yok."
+msgstr "There are no posts in this archive yet."
+
+#: tag.php:71
+msgid "Bu etiketle henüz gönderi yok."
+msgstr "There are no posts with this tag yet."
+
+#: functions.php:109
+msgid "Bu gönderiyi görüntülemek için şifreyi giriniz."
+msgstr "Enter the password to view this post."
+
+#: category.php:62
+msgid "Bu kategoride henüz gönderi yok."
+msgstr "There are no posts in this category yet."
+
+#: footer.php:8 functions.php:232
+msgid ""
+"Burası senin siten! Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+"Sed do eiusmod tempor incididunt ut labore."
+msgstr ""
+"This is your site! Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+"Sed do eiusmod tempor incididunt ut labore."
+
+#: index.php:187
+msgid "Daha Fazla Yükle"
+msgstr "Load More"
+
+#: functions.php:421
+msgid "Dark Theme Ayarları"
+msgstr "Dark Theme Settings"
+
+#: archive.php:59 category.php:56 functions.php:85 index.php:176 search.php:66
+#: tag.php:64
+msgid "Devamını Oku"
+msgstr "Read more"
+
+#: comments.php:52
+msgid "E-posta *"
+msgstr "Email *"
+
+#: functions.php:282
+msgid "E-posta Adresi"
+msgstr "Email Address"
+
+#: tag.php:20
+msgid "Etiketi ile İlgili Paylaşımlar"
+msgstr "Tag Posts"
+
+#: single.php:68
+msgid "Etiketler:"
+msgstr "Tags:"
+
+#: functions.php:358
+msgid "Etiketleri Göster"
+msgstr "Show Tags"
+
+#: functions.php:227
+msgid "Footer Ayarları"
+msgstr "Footer Settings"
+
+#: comments.php:62
+msgid "Gerekli alanlar <span class=\"required\">*</span> ile işaretlenmiştir."
+msgstr "Required fields are marked <span class=\"required\">*</span>."
+
+#: archive.php:74 category.php:71 search.php:81 tag.php:80
+msgid "Geri"
+msgstr "Back"
+
+#: comments.php:54 functions.php:111
+msgid "Gönder"
+msgstr "Send"
+
+#: footer.php:7
+msgid "Hakkımızda"
+msgstr "About"
+
+#: functions.php:236
+msgid "Hakkımızda Metni"
+msgstr "About Us Text"
+
+#: functions.php:375
+msgid "Header Ayarları"
+msgstr "Header Settings"
+
+#: index.php:183
+msgid "Henüz gönderi yok."
+msgstr "No posts yet."
+
+#: index.php:68
+msgid "Henüz içerik bulunamadı."
+msgstr "No content has been found yet."
+
+#: index.php:134
+msgid "Henüz popüler içerik yok."
+msgstr "There are no popular posts yet."
+
+#: single.php:11
+msgid "Home"
+msgstr "Home"
+
+#. Author URI of the theme
+msgid "http://example.com"
+msgstr ""
+
+#. URI of the theme
+msgid "http://example.com/blackwhiteblog"
+msgstr ""
+
+#: functions.php:414
+msgid "Karanlık Mod Düğmesini Göster"
+msgstr "Show Dark Mode Button"
+
+#: header.php:52
+msgid "Karanlık Modu Aç/Kapat"
+msgstr "Turn Dark Mode On/Off"
+
+#: category.php:42
+msgid "Kategori gönderi görseli"
+msgstr "Category post image"
+
+#: footer.php:40
+msgid "Kategoriler"
+msgstr "Categories"
+
+#: category.php:23
+msgid "Kategorisinden Paylaşımlar"
+msgstr "Category Posts"
+
+#: functions.php:108
+msgid "Korumalı İçerik"
+msgstr "Protected Content"
+
+#: page.php:46 single.php:85
+msgid "Link kopyalandı!"
+msgstr "Link copied!"
+
+#: functions.php:246
+msgid "Logo ve Site Adı Konteynırını Göster"
+msgstr "Show Logo and Site Name Container"
+
+#: functions.php:384
+msgid "Logoyu Göster"
+msgstr "Show Logo"
+
+#: header.php:37
+msgid "Menüyü Aç"
+msgstr "Open Menu"
+
+#: functions.php:404
+msgid "Menüyü Göster"
+msgstr "Show Menu"
+
+#: page.php:22 single.php:36
+msgid "Paylaş"
+msgstr "Share"
+
+#: page.php:35 single.php:50
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: index.php:115
+msgid "Popüler gönderi görseli"
+msgstr "Popular post image"
+
+#: index.php:83
+msgid "Popüler Gönderiler"
+msgstr "Popular Posts"
+
+#: functions.php:187 index.php:85
+msgid "Popüler İçerikler"
+msgstr "Popular Content"
+
+#: functions.php:191
+msgid "Popüler İçerikler Başlığı"
+msgstr "Popular Content Title"
+
+#: functions.php:181
+msgid "Popüler İçerikler Bölümünü Göster"
+msgstr "Show Popular Content Section"
+
+#: functions.php:202
+msgid "Popüler İçerikler Gönderi Sayısı"
+msgstr "Number of Popular Content Posts"
+
+#: functions.php:218
+msgid "Popüler İçerikler Kategori"
+msgstr "Popular Content Category"
+
+#. Author of the theme
+msgid "Senin Adın"
+msgstr "Your Name"
+
+#: functions.php:319
+msgid "Single Post Ayarları"
+msgstr "Single Post Settings"
+
+#: functions.php:394
+msgid "Site Adını Göster"
+msgstr "Show Site Name"
+
+#: footer.php:16
+msgid "Site Logo"
+msgstr "Site Logo"
+
+#: index.php:72
+msgid "Slider Navigasyonu"
+msgstr "Slider Navigation"
+
+#: functions.php:77 index.php:168
+msgid "Son gönderi görseli"
+msgstr "Latest post image"
+
+#: index.php:143 index.php:145
+msgid "Son Gönderiler"
+msgstr "Latest Posts"
+
+#: page.php:20
+msgid "Son Güncelleme:"
+msgstr "Last Update:"
+
+#: comments.php:34
+msgid "Sonraki Yorumlar"
+msgstr "Next Comments"
+
+#: search.php:33
+msgid "sonuç bulundu."
+msgstr "result found."
+
+#: functions.php:348
+msgid "Sosyal Paylaşım Butonlarını Göster"
+msgstr "Show Social Sharing Buttons"
+
+#: tag.php:50
+msgid "Tag gönderi görseli"
+msgstr "Tag post image"
+
+#: archive.php:18
+msgid "tarihine ait gönderiler."
+msgstr ": Posts"
+
+#: functions.php:292
+msgid "Telefon Numarası"
+msgstr "Phone Number"
+
+#: functions.php:338
+msgid "Thumbnail Göster"
+msgstr "Show Thumbnail"
+
+#: footer.php:63
+msgid "Tüm hakları saklıdır."
+msgstr "All rights reserved."
+
+#: functions.php:456
+msgid "Tüm Kategoriler / Son Gönderiler"
+msgstr "All Categories / Latest Posts"
+
+#: functions.php:434
+msgid "Varsayılan Olarak Açık"
+msgstr "Light by Default"
+
+#: functions.php:435
+msgid "Varsayılan Olarak Karanlık"
+msgstr "Dark by Default"
+
+#: functions.php:430
+msgid "Varsayılan Tema Modu"
+msgstr "Default Theme Mode"
+
+#: comments.php:90
+msgid "Yanıtla"
+msgstr "Reply"
+
+#: comments.php:13 comments.php:15
+msgid "Yorum"
+msgstr "Comment"
+
+#: comments.php:46
+msgid "Yorum Yap"
+msgstr "Leave a Comment"
+
+#: comments.php:41
+msgid "Yorumlar kapalı."
+msgstr "Comments are closed."
+
+#: functions.php:368
+msgid "Yorumları Göster"
+msgstr "Show Comments"
+
+#: comments.php:83
+msgid "Yorumunuz onay bekliyor."
+msgstr "Your comment is awaiting moderation."
+
+#: comments.php:49
+msgid "Yorumunuzu buraya yazın..."
+msgstr "Write your comment here..."
+
+#: archive.php:22
+msgid "yılına ait gönderiler."
+msgstr "posts archive"
+
+#: comments.php:33
+msgid "Önceki Yorumlar"
+msgstr "Previous Comments"
+
+#: index.php:22
+msgid "Öne Çıkan Gönderiler"
+msgstr "Featured Posts"
+
+#: functions.php:138 index.php:24
+msgid "Öne Çıkanlar"
+msgstr "Featured Posts"
+
+#: functions.php:142
+msgid "Öne Çıkanlar Başlığı"
+msgstr "Featured Section Title"
+
+#: functions.php:132
+msgid "Öne Çıkanlar Bölümünü Göster"
+msgstr "Show Featured Section"
+
+#: functions.php:153
+msgid "Öne Çıkanlar Gönderi Sayısı"
+msgstr "Number of Featured Posts"
+
+#: functions.php:169
+msgid "Öne Çıkanlar Kategori"
+msgstr "Featured Category Selection"
+
+#: index.php:50
+msgid "Öne çıkan görsel"
+msgstr "Featured Image"
+
+#: search.php:72
+msgid ""
+"Üzgünüz, aramanıza uygun bir içerik bulamadık. Lütfen başka bir kelimeyle "
+"tekrar deneyin."
+msgstr ""
+"Sorry, we couldn't find any content matching your search. Please try again "
+"with a different keyword."
+
+#: category.php:44 functions.php:80 index.php:171 tag.php:52
+msgid "önce"
+msgstr "ago"
+
+#: archive.php:75 category.php:72 search.php:82 tag.php:81
+msgid "İleri"
+msgstr "Next"
+
+#: footer.php:51 footer.php:58 functions.php:298
+msgid "İletişim"
+msgstr "Contact"
+
+#: functions.php:302
+msgid "İletişim Link Metni"
+msgstr "Contact Link Text"
+
+#: functions.php:312
+msgid "İletişim Link URL"
+msgstr "Contact Link URL"
+
+#: comments.php:51
+msgid "İsim *"
+msgstr "Name *"
+
+#: index.php:12 search.php:17
+msgid "İçerik Ara"
+msgstr "Search content"
+
+#: index.php:13 search.php:18
+msgid "İçerik ara..."
+msgstr "Search content..."
+
+#: page.php:51 single.php:90
+msgid "İçerik bulunamadı."
+msgstr "Content not found."
+
+#: functions.php:110
+msgid "Şifreyi girin"
+msgstr "Enter the password."
